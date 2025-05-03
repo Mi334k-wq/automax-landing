@@ -1,13 +1,47 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Automax – L'automatisation qui booste ton business !</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
-    body { font-family: Arial; text-align: center; padding: 40px; }
-    select { padding: 8px; margin-bottom: 20px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0b0b0b;
+      color: white;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 { font-size: 2rem; margin-bottom: 10px; }
+    p { font-size: 1.2rem; margin-bottom: 30px; max-width: 600px; }
+    input, button, select {
+      padding: 10px;
+      margin: 5px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      background: gold;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    select {
+      background: #1a1a1a;
+      color: white;
+    }
   </style>
 </head>
 <body>
+
   <select id="languageSelector" onchange="changeLanguage()">
     <option value="fr">Français</option>
     <option value="en">English</option>
@@ -34,111 +68,10 @@
 
   <h1 id="headline">Automax – L'automatisation qui booste ton business !</h1>
   <p id="subtext">Reçois le lien exclusif d’accès à Automax avant tout le monde.</p>
-  <input type="email" placeholder="Entre ton email" />
-  <button>S'inscrire</button>
+  <input type="email" placeholder="Entre ton email" id="emailInput" />
+  <button onclick="submitEmail()">S'inscrire</button>
 
   <script>
-    const translations = {
-      en: ["Automax – Automation that boosts your business!", "Get early access to Automax now."],
-      fr: ["Automax – L'automatisation qui booste ton business !", "Reçois le lien exclusif d’accès à Automax avant tout le monde."],
-      es: ["Automax – ¡La automatización que impulsa tu negocio!", "Obtén acceso anticipado a Automax ahora."],
-      pt: ["Automax – A automação que impulsiona seu negócio!", "Receba o acesso exclusivo ao Automax antes de todos."],
-      zh: ["Automax – 助力业务的自动化！", "立即抢先获取 Automax 的访问链接。"],
-      ru: ["Automax – Автоматизация, которая усиливает ваш бизнес!", "Получите доступ к Automax первыми."],
-      ko: ["Automax – 비즈니스를 성장시키는 자동화!", "지금 Automax 사전 접근 권한을 받으세요."],
-      cs: ["Automax – Automatizace, která posílí váš byznys!", "Získejte exkluzivní přístup k Automaxu jako první."],
-      it: ["Automax – L'automazione che potenzia il tuo business!", "Ricevi l'accesso esclusivo ad Automax ora."],
-      ar: ["Automax – الأتمتة التي تعزز عملك!", "احصل على رابط الوصول الحصري الآن."],
-      th: ["Automax – ระบบอัตโนมัติที่เสริมธุรกิจของคุณ!", "รับลิงก์การเข้าถึง Automax ก่อนใคร."],
-      be: ["Automax – Аўтаматызацыя, якая развівае ваш бізнес!", "Атрымайце доступ да Automax першымі."],
-      hi: ["Automax – जो आपके बिज़नेस को बढ़ावा देता है!", "सबसे पहले Automax एक्सेस प्राप्त करें।"],
-      tr: ["Automax – İşinizi büyüten otomasyon!", "Automax’a özel erişim şimdi alın."],
-      el: ["Automax – Η αυτοματοποίηση που απογειώνει την επιχείρησή σου!", "Πάρε πρώτος πρόσβαση στο Automax."],
-      fa: ["Automax – اتوماسیونی برای رشد کسب‌و‌کارتان!", "اکنون دسترسی زودهنگام به Automax را دریافت کنید."],
-      ja: ["Automax – ビジネスを加速させる自動化！", "Automax の先行アクセスを今すぐ取得。"],
-      nl: ["Automax – De automatisering die je business boekt!", "Ontvang als eerste toegang tot Automax."],
-      he: ["Automax – האוטומציה שמקדמת את העסק שלך!", "קבל גישה מוקדמת ל-Automax עכשיו."],
-      ro: ["Automax – Automatizarea care îți propulsează afacerea!", "Primește acces exclusiv la Automax."],
-      fj: ["Automax – Na vakatagedegede e vakaukauwa na nomu bisinisi!", "Raica e dua na linki ni curu taumada ki Automax."]
-    };
-
-    function changeLanguage() {
-      const lang = document.getElementById("languageSelector").value;
-      document.getElementById("headline").innerText = translations[lang][0];
-      document.getElementById("subtext").innerText = translations[lang][1];
-    }
-  </script>
-</body>
-</html>
-<!DOCTYPE html><html lang="fr">
-<head>
-<link rel="stylesheet" href="style.css" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Automax – L'automatisation qui booste ton business !</title>
-  <select id="languageSelector" onchange="changeLanguage()">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #0b0b0b;
-      color: white;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
-    h1 { font-size: 2rem; margin-bottom: 10px; }
-    p { font-size: 1.2rem; margin-bottom: 30px; max-width: 600px; }
-    input, button, select {
-      padding: 10px;
-      margin: 5px;
-      border-radius: 6px;
-      border: none;
-      font-size: 1rem;
-    }
-    button {
-      background: gold;
-      color: black;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    select {
-      background: #1a1a1a;
-      color: white;
-    }
-  </style>
-</head>
-<body>
-  <select id="languageSelector" onchange="changeLanguage()">
-    <option value="fr">Français</option>
-    <option value="en">English</option>
-    <option value="es">Español</option>
-    <option value="pt">Português</option>
-    <option value="zh">中文</option>
-    <option value="ru">Русский</option>
-    <option value="ko">한국어</option>
-    <option value="cs">Čeština</option>
-    <option value="it">Italiano</option>
-    <option value="ar">العربية</option>
-    <option value="th">ไทย</option>
-    <option value="be">Беларуская</option>
-    <option value="hi">हिंदी</option>
-    <option value="tr">Türkçe</option>
-    <option value="el">Ελληνικά</option>
-    <option value="fa">فارسی</option>
-    <option value="ja">日本語</option>
-    <option value="nl">Nederlands</option>
-    <option value="he">עברית</option>
-    <option value="ro">Română</option>
-    <option value="fj">Na Vosa Vakaviti</option>
-  </select> <h1 id="headline">Automax – L'automatisation qui booste ton business !</h1>
-  <p id="subtext">Reçois le lien exclusif d’accès à Automax avant tout le monde.</p> <input type="email" placeholder="Entre ton email" id="emailInput" />
-  <button onclick="submitEmail()">S'inscrire</button> <script>
     const translations = {
       en: ["Automax – Automation that boosts your business!", "Get early access to Automax now."],
       fr: ["Automax – L'automatisation qui booste ton business !", "Reçois le lien exclusif d’accès à Automax avant tout le monde."],
@@ -171,17 +104,12 @@
 
     function submitEmail() {
       const email = document.getElementById("emailInput").value;
-      alert("Merci ! Nous vous enverrons le lien Automax dès qu'il sera disponible : " + email);
-      document.getElementById("emailInput").value = "";
+      alert("Merci ! Vous recevrez bientôt des nouvelles à : " + email);
+      // Tu peux remplacer l'alerte par une vraie soumission vers un serveur ou un outil comme Mailchimp.
     }
-  </script></body>
+  </script>
+</body>
 </html>
-head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Automax</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
 
 
 
