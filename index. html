@@ -108,7 +108,56 @@
       // Tu peux remplacer l'alerte par une vraie soumission vers un serveur ou un outil comme Mailchimp.
     }
   </script>
-<img src="https://mail.google.com/mail/u/0?ui=2&ik=9b7b6b1e74&attid=0.1&permmsgid=msg-a:r7556275715577567361&th=196b0655e5f5f08a&view=att&disp=safe&realattid=196b065518078c893661&zw.png" alt="Logo Automax" width="200" />
+<img src="https://drive.google.com/open?id=15DiWr8O4lseXD7D2F2krTIsnQ_iEFb9u&usp=drive_copy" alt="Logo Automax" width="200" />
+<section id="pricing" class="pricing-section">
+  <h2>Plans d'abonnement</h2>
+  <div class="plans-container">
+
+    <!-- Starter -->
+    <div class="plan">
+      <h3>Starter</h3>
+      <p class="price">25€/mois</p>
+      <ul>
+        <li>Création de business automatisée</li>
+        <li>Site & landing page générés</li>
+        <li>Pubs automatisées Facebook & Google</li>
+        <li>CRM & emails de base</li>
+        <li>Support IA de base</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_starter_link" class="btn">Choisir Starter</a>
+    </div>
+
+    <!-- Pro -->
+    <div class="plan featured">
+      <h3>Pro</h3>
+      <p class="price">99€/mois</p>
+      <ul>
+        <li>Toutes les fonctionnalités Starter</li>
+        <li>IA stratégique & coach IA</li>
+        <li>Contenu marketing avancé (vidéo, posts...)</li>
+        <li>Analyse et reporting avancés</li>
+        <li>Intégrations (Notion, WhatsApp, Stripe, Shopify...)</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_pro_link" class="btn">Choisir Pro</a>
+    </div>
+
+    <!-- Empire -->
+    <div class="plan disabled">
+      <h3>Empire</h3>
+      <p class="price">499€/mois</p>
+      <ul>
+        <li>Fonctionnalités Pro +</li>
+        <li>Agents IA autonomes</li>
+        <li>Growth automatisé</li>
+        <li>Co-pilotage stratégique complet</li>
+        <li>Disponible bientôt</li>
+      </ul>
+      <span class="btn disabled">Bientôt disponible</span>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
 
