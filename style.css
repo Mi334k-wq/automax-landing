@@ -125,3 +125,9 @@ select {
   opacity: 0.5;
   pointer-events: none;
 }
+.logo {
+  display: block;
+  margin: 40px auto 20px auto; /* espacement haut/bas */
+  max-width: 200px;
+  height: auto;
+}
