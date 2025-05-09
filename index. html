@@ -108,7 +108,7 @@
       // Tu peux remplacer l'alerte par une vraie soumission vers un serveur ou un outil comme Mailchimp.
     }
   </script>
-<img src="2552907485460232960.png"alt="Logo Automax" width="200" />
+<img src="logo(1).png"alt="Logo Automax" width="200" />
 <section id="pricing" class="pricing-section">
   <h2>Plans d'abonnement</h2>
   <div class="plans-container">
@@ -269,7 +269,7 @@ DOCTYPE html>
   </style>
 </head>
 <body>
-  <img src="2552907485460232960.png" alt="Logo Automax" width="200" />
+  <img src="logo(1) .png" alt="Logo Automax" width="200" />
   <h1>L'automatisation qui booste ton business</h1>
   
   <form action="#" method="post">
