@@ -154,10 +154,134 @@
       </ul>
       <span class="btn disabled">Bientôt disponible</span>
     </div>
+DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automax</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #FFD700;
+      font-family: Arial, sans-serif;
+    }
 
-  </div>
-</section>
+    h1 {
+      font-size: 2rem;
+      margin: 20px 0;
+      color: #FFD700;
+    }
 
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 250px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #FFD700;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #e6c200;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo Automax" width="200" />
+  <h1>L'automatisation qui booste ton business</h1>
+  
+  <form action="#" method="post">
+    <input type="email" name="email" placeholder="Ton adresse email" required />
+    <button type="submit">Je m'inscris</button>DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automax</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #FFD700;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 20px 0;
+      color: #FFD700;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 250px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #FFD700;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #e6c200;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo Automax" width="200" />
+  <h1>L'automatisation qui booste ton business</h1>
+  
+  <form action="#" method="post">
+    <input type="email" name="email" placeholder="Ton adresse email" required />
+    <button type="submit">Je m'inscris</button>
+<div style="text-align: center; margin-top: 30px;">
+  <form action="https://buy.stripe.com/test_4gw9CUcdN7E97mo3cc" method="GET">
+    <button style="background-color: gold; color: black; padding: 15px 30px; border: none; border-radius: 8px; font-size: 18px; cursor: pointer;">
+      S'abonner – 25€/mois
+    </button>
+  </form>
+</div>
 </body>
 </html>
 
