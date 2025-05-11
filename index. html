@@ -296,6 +296,46 @@ DOCTYPE html>
   </form>
 </div>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section style="background-color: #000; color: #fff; padding: 50px 20px;">
+  <h2 style="text-align: center; color: gold; font-size: 32px;">Compare les abonnements</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 40px; gap: 20px;">
+    <!-- Starter -->
+    <div style="background-color: #111; border: 1px solid gold; border-radius: 12px; padding: 30px; width: 300px;">
+      <h3 style="color: gold;">Starter</h3>
+      <p>Idéal pour découvrir Automax.</p>
+      <ul>
+        <li>Accès limité aux outils AI</li>
+        <li>Aucune personnalisation</li>
+        <li>Support basique</li>
+      </ul>
+      <p style="margin-top: 20px;"><strong>9€/mois</strong></p>
+    </div>
+    <!-- Pro -->
+    <div style="background-color: #111; border: 1px solid gold; border-radius: 12px; padding: 30px; width: 300px;">
+      <h3 style="color: gold;">Pro</h3>
+      <p>Pour les entrepreneurs avancés.</p>
+      <ul>
+        <li>Accès complet aux outils AI</li>
+        <li>Personnalisation de workflows</li>
+        <li>Support prioritaire</li>
+      </ul>
+      <p style="margin-top: 20px;"><strong>25€/mois</strong></p>
+    </div>
+    <!-- Empire -->
+    <div style="background-color: gold; color: #000; border-radius: 12px; padding: 30px; width: 300px;">
+      <h3>Empire</h3>
+      <p>Pour débloquer toute la puissance Automax.</p>
+      <ul>
+        <li>Influence AI, Content AI, Ads AI, Split Testing AI</li>
+        <li>Assistants IA spécialisés (GrowthMax, AdMax…)</li>
+        <li>Connexion aux outils des marques</li>
+        <li>Monétisation pour influenceurs</li>
+        <li>Lancement international</li>
+      </ul>
+      <p style="margin-top: 20px;"><strong>49€/mois</strong></p>
+    </div>
+  </div>
+</section>
 </body>
 </html>
 
