@@ -342,7 +342,13 @@ DOCTYPE html>
   <button style="background-color: gold; color: black; border: none; padding: 12px 24px; font-size: 18px; border-radius: 8px; cursor: pointer;">
     S’abonner à Empire (499€/mois)
   </button>
-</form>ody>
+</form>
+<form action="TON_LIEN_STRIPE" method="GET">
+  <button style="background-color: gold; color: black; border: none; padding: 12px 24px; font-size: 18px; border-radius: 8px; cursor: pointer;">
+    S’abonner à Empire (499€/mois)
+  </button>
+</form>
+</body>
 </html>
 
 
